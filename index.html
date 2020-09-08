@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/27e86509c5.js" crossorigin="anonymous"></script>
+    <title>Coca Cola Landing Page</title>
+</head>
+<body>
+<section class="sec">
+    <header>
+     <a href="#"><img src="img/logoWhite.png" class="logo"></a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">What's New</a></li>
+            <li><a href="#">Newsletter</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+    <div class="content">
+        <div class="textBox">
+            <h2>That's What<br><span>I Like</span></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda doloremque earum eum facere
+                labore neque nihil obcaecati quae sequi tempora! Beatae dolore in molestiae quibusdam! Impedit
+                porro, ratione. Id, quam!</p>
+            <a href="#">View All Products</a>
+        </div>
+        <div class="imgBox">
+            <img src="img/cokeclassic.png" class="coke">
+        </div>
+    </div>
+    <ul class="thumb">
+        <li><img src="img/cokeclassic.png" class="thumbcoke" onclick="imgSlider('img/cokeclassic.png');changeBgColor('#F40009')"></li>
+         <li><img src="img/cherrycoke.png" class="thumbcherry" onclick="imgSlider('img/cherrycoke.png');changeBgColor('#530e21')"></li>
+         <li><img src="img/dietcoke.png" class="thumbdiet" onclick="imgSlider('img/dietcoke.png');changeBgColor('#A7A7A7')"></li>
+    </ul>
+    <ul class="sci">
+        <li a href="#"><i class="fab fa-facebook-square"></i></li>
+        <li a href="#"><i class="fab fa-twitter-square"></i></li>
+        <li a href="#"><i class="fab fa-instagram-square"></i></li>
+    </ul>
+</section>
+<script src="app.js"></script>
+</body>
+</html>
